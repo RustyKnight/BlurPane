@@ -40,5 +40,5 @@ are actually part of private/personal Maven repository as well, which would have
 prevented anyone from downloading them
 
 I could have just dumped all the source code needed into a single project, but 
-that would have dumped a whole of code which simply wasn't needed to demonstrate 
-the concept
+that would have dumped a whole lot of code into the project which simply wasn't 
+needed to demonstrate the concept
