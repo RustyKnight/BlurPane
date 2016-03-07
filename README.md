@@ -27,3 +27,18 @@ for example, when taking a snapshot of the parent container, it would, generally
 be more efficient to only capture the area which the component actually covered,
 but I had issues when trying to implement this and haven't figured out how to
 get around it.
+
+#Personal library code
+
+The repository includes a number of personal libraries bundled in the lib
+directory of the project. These libraries are required for demos and aren't
+part of the implementation.  I should be possible to take the core implementation
+and use it without the libraries
+
+I choose not to place the project into a Maven structure as the libraries used
+are actually part of private/personal Maven repository as well, which would have
+prevent anyone from downloading them
+
+I could have just dumped all the source code needed into a single project, but 
+that would have dumped a whole of code which simply wasn't needed to demonstrate 
+the concept
