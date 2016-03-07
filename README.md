@@ -3,8 +3,15 @@
 This is a Java/Swing based component designed to produce a blurred overlay of the
 parent container.
 
+The intention was to design a "transparent popup style component which blurred 
+the area of the container it covered", as you might see in some mobile platforms
+
 ![Static component](https://cloud.githubusercontent.com/assets/10276932/13559010/fb57fc50-e461-11e5-8df1-990e13ebfe5b.gif)
 ![Dynamic components](https://cloud.githubusercontent.com/assets/10276932/13559019/2afe7b46-e462-11e5-855b-44245118bd27.gif)
+
+The above examples are intended to push the implementation to see what it could
+do. In my testing, I can about 10 `BlurPane`s moving around the screen, but the
+frame rate drops dramatically
 
 The intention is for the component to generate a snapshot of the parent container,
 of the area that the component covers, and generate a blurred image which it then
